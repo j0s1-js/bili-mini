@@ -21,7 +21,7 @@
             <VideoCard v-for="video in videoList" :key="video.id" :video="video"></VideoCard>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="用户" name="second">配置管理</el-tab-pane>
+        <el-tab-pane label="用户" name="second">用户管理</el-tab-pane>
       </el-tabs>
     </div>
   </div>

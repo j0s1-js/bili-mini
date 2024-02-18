@@ -1,13 +1,11 @@
 <template>
     <div>
-        <!-- <Header></Header> -->
+        <Header></Header>
         <div class="video-container">
             <div class="left-container">
-                <!-- <VideoInfoContainer></VideoInfoContainer>
+                <VideoInfoContainer></VideoInfoContainer>
                 <PlayerWrap :id="$route.params.id"></PlayerWrap>
-
-                <VideoToolbarContainer></VideoToolbarContainer> -->
-
+                <VideoToolbarContainer></VideoToolbarContainer>
                 <div class="left-container-under-player">
                     <VideoDescContainer></VideoDescContainer>
                 </div>
@@ -18,18 +16,18 @@
 </template>
 
 <script>
-// import Header from '@/components/Header'
-// import VideoInfoContainer from '@/components/VideoInfoContainer'
-// import PlayerWrap from '@/components/PlayerWrap'
-// import VideoToolbarContainer from '@/components/VideoToolbarContainer'
+import Header from '@/components/Header'
+import VideoInfoContainer from '@/components/VideoInfoContainer'
+import PlayerWrap from '@/components/PlayerWrap'
+import VideoToolbarContainer from '@/components/VideoToolbarContainer'
 import VideoDescContainer from '@/components/VideoDescContainer'
 
 export default {
     components: {
-        // Header,
-        // VideoInfoContainer,
-        // PlayerWrap,
-        // VideoToolbarContainer,
+        Header,
+        VideoInfoContainer,
+        PlayerWrap,
+        VideoToolbarContainer,
         VideoDescContainer
     }
 }

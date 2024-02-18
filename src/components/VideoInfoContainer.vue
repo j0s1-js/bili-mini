@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="video-info-container">
         <h1 class="video-title">视频标题</h1>
         <div class="video-info-detail">
             <span class="view-item">
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style>
-.container {
+.video-info-container {
     height: 104px;
     box-sizing: border-box;
     padding-top: 22px;
